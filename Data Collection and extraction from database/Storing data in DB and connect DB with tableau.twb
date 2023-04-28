@@ -1,0 +1,738 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (Collect the Dataset)' inline='true' name='federated.13egs6b02rz6df102hgm6044i8to' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Collect the Dataset' name='excel-direct.0x7zujz13mbxeu11j725o14sjn8x'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/USER/Desktop/3 maths/team2/Data Collection and extraction from database/Collect the Dataset.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0x7zujz13mbxeu11j725o14sjn8x' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:O93:no:A1:O93:0' header='yes' outcome='6'>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='integer' name='year' ordinal='1' />
+            <column datatype='real' name='co2' ordinal='2' />
+            <column datatype='real' name='co2_growth_prct' ordinal='3' />
+            <column datatype='real' name='1waaco2_per_capita' ordinal='4' />
+            <column datatype='real' name='cumulative_co2' ordinal='5' />
+            <column datatype='real' name='coal_co2' ordinal='6' />
+            <column datatype='real' name='cement_co2' ordinal='7' />
+            <column datatype='real' name='gas_co2' ordinal='8' />
+            <column datatype='real' name='oil_co2' ordinal='9' />
+            <column datatype='real' name='cement_co2_per_capita' ordinal='10' />
+            <column datatype='real' name='coal_co2_per_capita' ordinal='11' />
+            <column datatype='real' name='gas_co2_per_capita' ordinal='12' />
+            <column datatype='real' name='oil_co2_per_capita' ordinal='13' />
+            <column datatype='integer' name='population' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0x7zujz13mbxeu11j725o14sjn8x' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:O93:no:A1:O93:0' header='yes' outcome='6'>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='integer' name='year' ordinal='1' />
+            <column datatype='real' name='co2' ordinal='2' />
+            <column datatype='real' name='co2_growth_prct' ordinal='3' />
+            <column datatype='real' name='1waaco2_per_capita' ordinal='4' />
+            <column datatype='real' name='cumulative_co2' ordinal='5' />
+            <column datatype='real' name='coal_co2' ordinal='6' />
+            <column datatype='real' name='cement_co2' ordinal='7' />
+            <column datatype='real' name='gas_co2' ordinal='8' />
+            <column datatype='real' name='oil_co2' ordinal='9' />
+            <column datatype='real' name='cement_co2_per_capita' ordinal='10' />
+            <column datatype='real' name='coal_co2_per_capita' ordinal='11' />
+            <column datatype='real' name='gas_co2_per_capita' ordinal='12' />
+            <column datatype='real' name='oil_co2_per_capita' ordinal='13' />
+            <column datatype='integer' name='population' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:O93:no:A1:O93:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>co2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[co2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>co2</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>co2_growth_prct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[co2_growth_prct]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>co2_growth_prct</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1waaco2_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1waaco2_per_capita]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>1waaco2_per_capita</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cumulative_co2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cumulative_co2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>cumulative_co2</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_co2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_co2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>coal_co2</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cement_co2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cement_co2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>cement_co2</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gas_co2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gas_co2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>gas_co2</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oil_co2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oil_co2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>oil_co2</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cement_co2_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cement_co2_per_capita]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>cement_co2_per_capita</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_co2_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_co2_per_capita]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>coal_co2_per_capita</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gas_co2_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gas_co2_per_capita]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>gas_co2_per_capita</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oil_co2_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oil_co2_per_capita]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>oil_co2_per_capita</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[population]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>population</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='1Waaco2 Per Capita' datatype='real' name='[1waaco2_per_capita]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB]' role='measure' type='quantitative' />
+      <column caption='Cement Co2' datatype='real' name='[cement_co2]' role='measure' type='quantitative' />
+      <column caption='Cement Co2 Per Capita' datatype='real' name='[cement_co2_per_capita]' role='measure' type='quantitative' />
+      <column caption='Co2' datatype='real' name='[co2]' role='measure' type='quantitative' />
+      <column caption='Co2 Growth Prct' datatype='real' name='[co2_growth_prct]' role='measure' type='quantitative' />
+      <column caption='Coal Co2' datatype='real' name='[coal_co2]' role='measure' type='quantitative' />
+      <column caption='Coal Co2 Per Capita' datatype='real' name='[coal_co2_per_capita]' role='measure' type='quantitative' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Cumulative Co2' datatype='real' name='[cumulative_co2]' role='measure' type='quantitative' />
+      <column caption='Gas Co2' datatype='real' name='[gas_co2]' role='measure' type='quantitative' />
+      <column caption='Gas Co2 Per Capita' datatype='real' name='[gas_co2_per_capita]' role='measure' type='quantitative' />
+      <column caption='Oil Co2' datatype='real' name='[oil_co2]' role='measure' type='quantitative' />
+      <column caption='Oil Co2 Per Capita' datatype='real' name='[oil_co2_per_capita]' role='measure' type='quantitative' />
+      <column caption='Population' datatype='integer' name='[population]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[cement_co2]' derivation='Sum' name='[sum:cement_co2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[cement_co2_per_capita]' derivation='Sum' name='[sum:cement_co2_per_capita:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[coal_co2]' derivation='Sum' name='[sum:coal_co2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[gas_co2]' derivation='Sum' name='[sum:gas_co2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[gas_co2_per_capita]' derivation='Sum' name='[sum:gas_co2_per_capita:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[oil_co2]' derivation='Sum' name='[sum:oil_co2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[oil_co2_per_capita]' derivation='Sum' name='[sum:oil_co2_per_capita:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.13egs6b02rz6df102hgm6044i8to].[sum:cement_co2:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.13egs6b02rz6df102hgm6044i8to].[sum:coal_co2:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.13egs6b02rz6df102hgm6044i8to].[sum:oil_co2:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.13egs6b02rz6df102hgm6044i8to].[sum:oil_co2_per_capita:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.13egs6b02rz6df102hgm6044i8to].[sum:gas_co2:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.13egs6b02rz6df102hgm6044i8to].[sum:gas_co2_per_capita:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.13egs6b02rz6df102hgm6044i8to].[sum:cement_co2_per_capita:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_81B10DF749EB4F0E8FA1F01D3007C8AB'>
+            <properties context=''>
+              <relation connection='excel-direct.0x7zujz13mbxeu11j725o14sjn8x' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:O93:no:A1:O93:0' header='yes' outcome='6'>
+                  <column datatype='string' name='country' ordinal='0' />
+                  <column datatype='integer' name='year' ordinal='1' />
+                  <column datatype='real' name='co2' ordinal='2' />
+                  <column datatype='real' name='co2_growth_prct' ordinal='3' />
+                  <column datatype='real' name='1waaco2_per_capita' ordinal='4' />
+                  <column datatype='real' name='cumulative_co2' ordinal='5' />
+                  <column datatype='real' name='coal_co2' ordinal='6' />
+                  <column datatype='real' name='cement_co2' ordinal='7' />
+                  <column datatype='real' name='gas_co2' ordinal='8' />
+                  <column datatype='real' name='oil_co2' ordinal='9' />
+                  <column datatype='real' name='cement_co2_per_capita' ordinal='10' />
+                  <column datatype='real' name='coal_co2_per_capita' ordinal='11' />
+                  <column datatype='real' name='gas_co2_per_capita' ordinal='12' />
+                  <column datatype='real' name='oil_co2_per_capita' ordinal='13' />
+                  <column datatype='integer' name='population' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Collect the Dataset)' name='federated.13egs6b02rz6df102hgm6044i8to' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13egs6b02rz6df102hgm6044i8to'>
+            <column caption='Cement Co2' datatype='real' name='[cement_co2]' role='measure' type='quantitative' />
+            <column caption='Coal Co2' datatype='real' name='[coal_co2]' role='measure' type='quantitative' />
+            <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Gas Co2 Per Capita' datatype='real' name='[gas_co2_per_capita]' role='measure' type='quantitative' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
+            <column caption='Oil Co2' datatype='real' name='[oil_co2]' role='measure' type='quantitative' />
+            <column caption='Oil Co2 Per Capita' datatype='real' name='[oil_co2_per_capita]' role='measure' type='quantitative' />
+            <column-instance column='[cement_co2]' derivation='Sum' name='[sum:cement_co2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[coal_co2]' derivation='Sum' name='[sum:coal_co2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[gas_co2_per_capita]' derivation='Sum' name='[sum:gas_co2_per_capita:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[oil_co2]' derivation='Sum' name='[sum:oil_co2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[oil_co2_per_capita]' derivation='Sum' name='[sum:oil_co2_per_capita:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13egs6b02rz6df102hgm6044i8to].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13egs6b02rz6df102hgm6044i8to].[sum:cement_co2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13egs6b02rz6df102hgm6044i8to].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13egs6b02rz6df102hgm6044i8to].[sum:oil_co2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13egs6b02rz6df102hgm6044i8to].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13egs6b02rz6df102hgm6044i8to].[sum:coal_co2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13egs6b02rz6df102hgm6044i8to].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13egs6b02rz6df102hgm6044i8to].[sum:gas_co2_per_capita:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13egs6b02rz6df102hgm6044i8to].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.13egs6b02rz6df102hgm6044i8to].[sum:oil_co2_per_capita:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13egs6b02rz6df102hgm6044i8to].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.13egs6b02rz6df102hgm6044i8to].[sum:cement_co2:qk] + ([federated.13egs6b02rz6df102hgm6044i8to].[sum:coal_co2:qk] + ([federated.13egs6b02rz6df102hgm6044i8to].[sum:gas_co2_per_capita:qk] + ([federated.13egs6b02rz6df102hgm6044i8to].[sum:oil_co2_per_capita:qk] + [federated.13egs6b02rz6df102hgm6044i8to].[sum:oil_co2:qk]))))</rows>
+        <cols>([federated.13egs6b02rz6df102hgm6044i8to].[none:country:nk] * [federated.13egs6b02rz6df102hgm6044i8to].[none:year:qk])</cols>
+      </table>
+      <simple-id uuid='{3FE36963-E479-46B7-AD29-1A8102C36CAA}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.13egs6b02rz6df102hgm6044i8to].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.13egs6b02rz6df102hgm6044i8to].[:Measure Names]</field>
+            <field>[federated.13egs6b02rz6df102hgm6044i8to].[none:country:nk]</field>
+            <field>[federated.13egs6b02rz6df102hgm6044i8to].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3A05993B-6602-4FB8-9192-7E848D9CD3CF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
